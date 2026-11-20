@@ -1,0 +1,29 @@
+.card {
+  background: white;
+  border-left: 5px solid #7c3aed;
+  border-radius: 14px;
+  padding: 24px;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+  margin-top: 22px;
+}
+.icon {
+  width: 58px; height: 58px; flex: 0 0 58px;
+  display: grid; place-items: center;
+  border-radius: 50%; background: #f1e9ff; font-size: 28px;
+}
+h2 { margin-top: 0; color: #173b67; }
+.badge {
+  display: inline-block;
+  background: #eaf2fb; color: #2f6fb4; font-weight: bold;
+  padding: 8px 12px; border-radius: 8px;
+}
+.vide { color: #6b7280; font-style: italic; }
+.btn {
+  background: #173b67; color: white; border: none;
+  font-weight: bold; padding: 10px 24px;
+  border-radius: 8px; cursor: pointer;
+}
+.btn:disabled { background: #9ca3af; cursor: not-allowed; }
